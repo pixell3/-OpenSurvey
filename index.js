@@ -15,13 +15,6 @@ function off() {
     document.getElementById("overlay").style.display = "none";
 }
 
-// Show more questions
-function showMore() {
-	document.getElementById("hot").style.display = "block";
-}
-function hide() {
-	document.getElementById(["hot", "moreAsked"]).style.display = "none";
-}
 
 
 function moreAsked(){
